@@ -1,0 +1,46 @@
+# secrets / instance access (never commit)
+iid.txt
+ssh_cfg
+known_hosts
+create.json
+*_ed25519*
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+.hf_token
+.*token*
+.session_secret
+.dashboard_url
+*secret*
+# weights, checkpoints, archives, big data, reference docs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+*.tgz
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.pdf
+data/
+cache/
+mix/web_train.txt
+mix/web_val.txt
+mix/wordnet.txt
+finish_up/adapter_best/*
+!finish_up/adapter_best/LICENSE
+!finish_up/adapter_best/NOTICE
+!finish_up/adapter_best/README.md
+!finish_up/adapter_best/adapter_config.json
+# run logs / local state
+*.log
+STOP_KILLER
+__pycache__/
+*.pyc
+node_modules/
+.artemis/
