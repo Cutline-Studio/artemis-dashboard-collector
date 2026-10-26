@@ -1,9 +1,9 @@
 {
- "as_of": "2026-10-26 00:45 ET",
- "as_of_epoch": 1792989923,
+ "as_of": "2026-10-26 08:01 ET",
+ "as_of_epoch": 1793016076,
  "vast": {
   "ok": true,
-  "credit": 16.4451,
+  "credit": 15.3707,
   "autobill": null,
   "credit_only": 1,
   "payments": [
@@ -120,15 +120,15 @@
     ]
    },
    "57753825": {
-    "total": 0.955,
+    "total": 2.029,
     "items": [
      {
       "desc": "Instance 57753825 GPU  charge:    hours * $/hr",
-      "amount": 0.899
+      "amount": 1.93
      },
      {
       "desc": "Instance 57753825 storage charge: hours * $/hr",
-      "amount": 0.038
+      "amount": 0.081
      },
      {
       "desc": "Instance 57753825 download charge",
@@ -137,7 +137,7 @@
     ]
    }
   },
-  "charges_total": 3.203
+  "charges_total": 4.277
  },
  "runs": [
   {
@@ -163,25 +163,10 @@
    "instance_id": "57753825",
    "rented": "2026-10-25 22:29:49 EDT",
    "hard_kill": "2026-10-26 04:29 ET",
-   "instance": {
-    "id": 57753825,
-    "actual_status": "running",
-    "intended_status": "running",
-    "gpu_name": "RTX 4090",
-    "num_gpus": 1,
-    "dph_total": 0.41666666666666663,
-    "start_date": 1792981790.013406,
-    "duration": 8136.436805486679,
-    "geolocation": "Brazil, BR",
-    "gpu_util": 97.999908,
-    "disk_usage": 7.199999809265137,
-    "status_msg": "success, running pytorch/pytorch_2.5.1-cuda12.4-cudnn9-devel/ssh"
-   },
-   "billed": 0.955,
-   "status": "running",
-   "accrued_estimate": 0.9417,
-   "spend": 0.955,
-   "worst_case_at_hard_kill_estimate": 2.5
+   "instance": null,
+   "billed": 2.029,
+   "status": "destroyed",
+   "spend": 2.029
   },
   {
    "key": "qwen",
@@ -2842,15 +2827,15 @@
  },
  "box": {
   "load": [
-   0.26,
-   0.28,
-   0.32
+   0.53,
+   0.41,
+   0.75
   ],
   "cpus": 8,
   "disk_total_gb": 136.8,
-  "disk_free_gb": 3.8,
+  "disk_free_gb": 3.2,
   "mem_total_gb": 15.6,
-  "mem_available_gb": 11.0,
-  "uptime_h": 27.8
+  "mem_available_gb": 2.3,
+  "uptime_h": 29.9
  }
 }
